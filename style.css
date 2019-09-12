@@ -1,0 +1,48 @@
+body {
+    background-color: skyblue;
+}
+div {
+    background-color: aliceblue;
+    border: 1px solid lightskyblue;
+}
+td,
+th {
+    border: 1px solid rgb(190, 190, 190);
+    padding: 10px;
+}
+h1,
+h2 {
+    font-family: "Comic Sans MS";
+    color: darkblue;
+    margin-left: 30px;
+}
+td {
+    text-align: center;
+}
+
+tr {
+    background-color: aliceblue;
+}
+
+th[scope="col"] {
+    background-color: royalblue;
+    color: ghostwhite;
+}
+
+th[scope="row"] {
+    background-color: powderblue;
+}
+
+caption {
+    padding: 10px;
+    caption-side: bottom;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid rgb(200, 200, 200);
+    letter-spacing: 1px;
+    font-family: "Comic Sans MS";
+    font-size: .8rem;
+    margin-left: 30px;
+}
